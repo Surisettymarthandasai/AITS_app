@@ -1,0 +1,42 @@
+{
+  "name": "classtrackr-frontend",
+  "version": "1.0.0",
+  "description": "A web-based attendance management system for students.",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chart.js": "^3.9.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3"
+  },
+  "keywords": [
+    "attendance",
+    "management",
+    "system",
+    "students"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
